@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# to install nginx to the server
+
+#First update and update the package and install nginx
+sudo apt-get -y update && sudo apt-get -y upgrade
+sudo apt-get -y install nginx 
+sudo ufw allow 'Nginx HTTp'
+
+# Create a custom index.html file with "Hello World!" message
+echo "Hello World!" > /var/www/html/index.html
+
+# Restart nginx
+service nginx restart
