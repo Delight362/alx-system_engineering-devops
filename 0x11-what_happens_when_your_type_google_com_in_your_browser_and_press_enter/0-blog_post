@@ -1,0 +1,26 @@
+#What happens when you type google.com
+
+When you type "google.com" in your browser and press enter, your browser will send a request to the Google.com domain. The request will contain information about the type of request (in this case, it will be a GET request because you're trying to retrieve a web page), as well as any additional information that your browser thinks is relevant, such as cookies or other browsing history.
+
+The Google.com server will then receive your request and process it. It will generate a response, which will typically be an HTML document containing the Google search page. This response will be sent back to your browser, which will then render the page so that you can see it.
+
+Once the page is rendered, you can then interact with it as you normally would, entering search queries or clicking on links. Behind the scenes, more requests and responses will be sent back and forth between your browser and the Google.com server, allowing you to access all the features of the Google search engine.
+
+They process include the following:
+
+1. ** DNS Request:** When you type "google.com" in your browser, a DNS request is sent to a DNS server to resolve the domain name to an IP address. The DNS server returns the IP address of one of Google's servers, which is where your browser will send the subsequent requests.
+
+2. **Firewall:** Before the request reaches Google's servers, it may pass through a firewall, which is a network security system that monitors and controls incoming and outgoing network traffic. The firewall may check the request to ensure that it meets certain criteria, such as being a valid HTTP request.
+
+3. **HTTPS/SSL:** When your browser sends the request to Google's server, it will use the HTTPS protocol to encrypt the request and response. This is done to ensure that the communication between your browser and the server is secure and protected from eavesdropping, tampering, and forgery. The SSL certificate used to encrypt the connection is verified by your browser to ensure that it is valid and issued by a trusted certificate authority.
+
+4. **Load-balancer:** Once the request passes through the firewall and the HTTPS connection is established, it may be routed to a load-balancer. A load-balancer is a device that distributes incoming network traffic across multiple servers to ensure that no single server becomes overloaded or fails. The load-balancer may also perform health checks on the servers to ensure that they are available and responsive.
+
+5. **Web server:** The load-balancer then forwards the request to one of Google's web servers, which is responsible for serving the HTTP response. The web server may perform various tasks, such as parsing the request, executing server-side scripts, and generating dynamic content.
+
+6. **Application server:** In some cases, the web server may need to communicate with an application server to generate the response. The application server is responsible for processing business logic and accessing data from databases or other backend systems. The application server may also perform caching and other optimizations to improve performance and scalability.
+
+7. **Database:** If the application server needs to access a database, it will send SQL queries to retrieve the required data. The database may be hosted on the same server as the application server, or it may be a separate server or cluster of servers. The database server will execute the queries and return the requested data to the application server, which will then use it to generate the response.
+
+Overall, this process involves multiple components working together to deliver the Google.com website to your browser. Each component plays a critical role in ensuring that the request is handled securely, efficiently, and reliably.
+PS I love you. And i asked the Ask AI app to write this for me. Get it for free --> https://get-askai.app
